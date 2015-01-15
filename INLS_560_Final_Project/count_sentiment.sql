@@ -1,0 +1,1 @@
+SELECT business_id, COUNT (*) AS number_of_positive_reviews FROM sentiment WHERE sentiment = "pos" GROUP BY business_id

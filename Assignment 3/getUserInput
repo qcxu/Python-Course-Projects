@@ -1,0 +1,14 @@
+def main():
+    items = get_user_input()
+    for item in items:
+        print item
+
+
+def get_user_input():
+    name = raw_input("Please enter your name: ")
+    birth = raw_input("Please enter your birthday: ")
+    email = raw_input("Please enter your email address: ")
+    user_input = [name, birth, email]
+    return user_input
+
+main()
